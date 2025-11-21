@@ -1,0 +1,163 @@
+# KenPire Mesh OS - Security & Secrets Protection
+
+# =============================================================================
+# 🔒 CRITICAL SECURITY FILES - NEVER COMMIT THESE
+# =============================================================================
+
+# Environment configuration
+.env
+.env.local
+.env.production
+.env.staging
+
+# API Keys and secrets
+api_keys.json
+secrets.json
+credentials.yaml
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration with secrets
+config.json
+local_config.yaml
+production_config.yaml
+
+# Docker secrets
+docker-secrets/
+secrets/
+
+# Kubernetes secrets
+k8s-secrets/
+*.secret.yaml
+
+# =============================================================================
+# 🔧 DEVELOPMENT & BUILD ARTIFACTS
+# =============================================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDEs
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# =============================================================================
+# 🐳 DOCKER & CONTAINER ARTIFACTS  
+# =============================================================================
+
+# Docker build cache
+.docker/
+docker-compose.override.yml
+.dockerignore.swp
+
+# =============================================================================
+# ☸️ KUBERNETES & DEPLOYMENT
+# =============================================================================
+
+# Helm
+.helm/
+charts/*.tgz
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+
+# =============================================================================
+# 📊 LOGS & MONITORING
+# =============================================================================
+
+# Application logs
+*.log
+logs/
+log/
+
+# Monitoring data
+metrics/
+traces/
+
+# =============================================================================
+# 🧪 TESTING & COVERAGE
+# =============================================================================
+
+# Test coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/
+
+# =============================================================================
+# 🔍 SECURITY & AUDIT
+# =============================================================================
+
+# Security scan results
+security-report.json
+vulnerability-scan.json
+bandit-report.json
+safety-report.json
+
+# =============================================================================
+# 📦 PACKAGE MANAGERS & DEPENDENCIES
+# =============================================================================
+
+# Node.js (if using any JS tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =============================================================================
+# 💾 BACKUP & TEMPORARY FILES
+# =============================================================================
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
