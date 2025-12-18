@@ -1,0 +1,38 @@
+{
+  "card_id": "smartcard_chatlink_bridge_v0.1",
+  "type": "coordination",
+  "domain": "mesh_communications",
+  "status": "active",
+  "owner": "kenpire",
+
+  "participants": [
+    "@jarvess",
+    "@finish_it",
+    "@clausewitch",
+    "@gpt4o",
+    "@gpt5.2"
+  ],
+
+  "linked_smartcards": [
+    {
+      "card_id": "smartcard_authority_map_v1.0",
+      "repo": "kenpire-mesh-os-codespaces",
+      "path": "docs/control/smartcards/smartcard_authority_map_v1.0.json",
+      "enforcement_level": "hard"
+    },
+    {
+      "card_id": "smartcard_runtime_assertion_v1.0",
+      "repo": "kenpire-mesh-os-codespaces",
+      "path": "docs/audit/runtime_assertions.json",
+      "enforcement_level": "medium"
+    }
+  ],
+
+  "coordination_rules": {
+    "truth_resolution": "follow_authority_map",
+    "drift_behavior": "halt_and_request_resync",
+    "out_of_band_claims": "invalid"
+  },
+
+  "timestamp": "NOW"
+}
