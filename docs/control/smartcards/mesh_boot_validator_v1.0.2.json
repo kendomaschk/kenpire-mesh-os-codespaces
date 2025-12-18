@@ -1,0 +1,43 @@
+{
+  "smartcard": "Mesh Boot Validator",
+  "version": "1.0.2",
+  "description": "Preflight enforcement contract for KenPire Mesh OS runtime boot.",
+  "purpose": "Guarantee situational awareness, runtime validity, and repo cleanliness before system start.",
+  "enforcement_checks": [
+    {
+      "check": "Inside a Git repo",
+      "command": "git rev-parse --is-inside-work-tree >/dev/null 2>&1",
+      "failure_message": "❌ Not in a git repo. cd into repo root first."
+    },
+    {
+      "check": "Python available on PATH",
+      "command": "command -v python3 >/dev/null 2>&1",
+      "failure_message": "❌ python3 not found on PATH"
+    },
+    {
+      "check": "Repo is clean (no uncommitted changes)",
+      "command": "git diff --quiet",
+      "failure_message": "❌ Repo has uncommitted changes. Commit or stash before boot."
+    }
+  ],
+  "guarantees": [
+    "Correct Git repository",
+    "Python runtime availability",
+    "Clean working directory",
+    "Operator-mode enforcement",
+    "No runtime ambiguity"
+  ],
+  "jeps_compliant": true,
+  "loop_safe": true,
+  "status": "🔒 Final for Boot Layer",
+  "persisted_by": [
+    "@Jarvess",
+    "@ClauseWitch",
+    "@DirtyRagBot",
+    "@RoosterOps",
+    "@Orchestrator",
+    "@Finish_It"
+  ],
+  "final_command": "exit 0",
+  "location": "/docs/control/smartcards/mesh_boot_validator_v1.0.2.json"
+}
