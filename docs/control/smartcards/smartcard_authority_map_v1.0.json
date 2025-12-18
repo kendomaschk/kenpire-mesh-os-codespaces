@@ -1,0 +1,14 @@
+{
+  "card_id": "smartcard_authority_map_v1.0",
+  "source_of_truth": {
+    "name": "kenpire-mesh-os-codespaces",
+    "role": "authority"
+  },
+  "execution_repos": [
+    {
+      "name": "kenpire-devex-control-plane",
+      "role": "executor"
+    }
+  ],
+  "failure_mode": "fail_closed"
+}
