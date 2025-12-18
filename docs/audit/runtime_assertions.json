@@ -1,0 +1,10 @@
+[
+  {
+    "card_id": "smartcard_runtime_assertion_v1.0",
+    "commit": "f51317e7a81f3c3756b67dc9bf90e6956f7c60d7",
+    "validated_at": "2025-12-19T01:23:45Z",
+    "shell": "MSYS2",
+    "python": "/usr/bin/python3",
+    "version": "3.12.12"
+  }
+]
