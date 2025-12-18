@@ -52,7 +52,7 @@ jobs:
       - name: 📏 Linting Check
         run: |
           echo "📏 Running flake8 linting..."
-          if [ -d tests ] && flake8 src/ tests/ --max-line-length=88 --extend-ignore=E203,W503
+          if [ -d tests ] && if [ -d tests ] && flake8 src/ tests/ --max-line-length=88 --extend-ignore=E203,W503
 
       - name: 🔍 Type Checking
         run: |
@@ -69,7 +69,7 @@ jobs:
       - name: 🧪 Unit Tests
         run: |
           echo "🧪 Running unit tests..."
-          if [ -d tests ] && pytest tests/ -v --cov=src --cov-report=xml --cov-report=html
+          if [ -d tests ] && if [ -d tests ] && pytest tests/ -v --cov=src --cov-report=xml --cov-report=html
 
       - name: 📊 Upload Coverage Reports
         uses: codecov/codecov-action@v3
@@ -190,7 +190,7 @@ jobs:
       - name: 🧪 Run Integration Tests
         run: |
           echo "🧪 Running integration tests..."
-          if [ -d tests ] && pytest tests/integration/ -v --tb=short
+          if [ -d tests ] && if [ -d tests ] && pytest tests/integration/ -v --tb=short
 
       - name: 🌐 API Health Check
         run: |

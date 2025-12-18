@@ -1,0 +1,11 @@
+{
+  "card_type": "CI_GUARD_PATCH",
+  "patched_by": "finish_it",
+  "timestamp": "20251218_003820",
+  "details": {
+    "action": "Injected directory existence checks for flake8 and pytest",
+    "guard_logic": "if [ -d tests ] && pytest ...",
+    "scope": "All GitHub Actions workflows in .github/workflows"
+  },
+  "audit": "patch_log_20251218_003820.txt"
+}
