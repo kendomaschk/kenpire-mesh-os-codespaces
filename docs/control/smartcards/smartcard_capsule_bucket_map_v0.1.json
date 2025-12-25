@@ -1,0 +1,28 @@
+{
+  "card_id": "smartcard_capsule_bucket_map_v0.1",
+  "type": "mapping",
+  "domain": "capsule_inventory",
+  "status": "active",
+  "owner": "kenpire",
+  "buckets": {
+    "Mesh OS": [
+      "smartcard_runtime_assertion_v1.0",
+      "smartcard_authority_map_v1.0"
+    ],
+    "Team Query": [
+      "smartcard_team_query_v0.1"
+    ],
+    "Dirty Rag": [
+      "dirtyrag_runtime_bundle_v1",
+      "capsule_dirtyrag_local_rag_v1"
+    ],
+    "Trifecta Arbitration": [
+      "smartcard_trifecta_assertion_v1"
+    ],
+    "Experimental": [
+      "jepa_cow_loop_ref_v0.1"
+    ]
+  },
+  "rule": "All capsules must be tracked in a declared bucket.",
+  "timestamp": "NOW"
+}

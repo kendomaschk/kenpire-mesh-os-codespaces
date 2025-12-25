@@ -1,0 +1,16 @@
+{
+  "card_id": "smartcard_product_frame_index_v0.1",
+  "type": "index",
+  "domain": "product_framing",
+  "status": "active",
+  "owner": "kenpire",
+  "frames": [
+    "Mesh OS (infra / governance)",
+    "Capsule Marketplace (modular bundles)",
+    "Team Query (coordination engine)",
+    "Enterprise Guardrails (audit / compliance)",
+    "Solo Dev OS (local-first devstack)"
+  ],
+  "rule": "No execution without frame assignment",
+  "timestamp": "NOW"
+}
