@@ -1,0 +1,15 @@
+{
+  "smartcard_team_query_v0.1": {
+    "layer": "coordination",
+    "linked_capsules": ["TeamQuery Capsule"],
+    "agents_involved": ["Orchestrator", "Jarvess", "Finish_it"]
+  },
+  "smartcard_product_frame_index_v0.1": {
+    "layer": "framing",
+    "note": "High-level framing only"
+  },
+  "smartcard_gold_repo_alignment_v1.0": {
+    "layer": "governance",
+    "enforces": ["knowledge_scope", "anti-duplication"]
+  }
+}
