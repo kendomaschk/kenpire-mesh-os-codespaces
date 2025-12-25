@@ -1,0 +1,51 @@
+{
+  "card_id": "smartcard_team_query_v0.1",
+  "type": "coordination",
+  "domain": "team_composition",
+  "status": "active",
+  "owner": "kenpire",
+
+  "intent": "Provide a machine-readable contract for determining active participants, roles, and capabilities within a defined KenPire operation.",
+
+  "query_rules": {
+    "scope_required": true,
+    "authority_source": "smartcard_authority_map_v1.0",
+    "chatlink_required": true,
+    "out_of_scope_entities": "ignored",
+    "unverified_agents": "excluded"
+  },
+
+  "roles": [
+    {
+      "role": "Orchestrator",
+      "capabilities": ["coordination", "state_management", "routing"],
+      "authority_level": "primary"
+    },
+    {
+      "role": "Reflection Strategist",
+      "agent": "Jarvess",
+      "capabilities": ["reflection", "validation", "proof_enforcement"],
+      "authority_level": "advisory"
+    },
+    {
+      "role": "Execution Agent",
+      "agent": "Finish_it",
+      "capabilities": ["task_execution", "completion_reporting"],
+      "authority_level": "operational"
+    },
+    {
+      "role": "Reasoning Engine",
+      "agent": "GPT-5.2",
+      "capabilities": ["analysis", "generation"],
+      "authority_level": "support"
+    }
+  ],
+
+  "resolution_behavior": {
+    "conflicting_roles": "defer_to_authority_map",
+    "missing_roles": "request_explicit_assignment",
+    "duplicate_agents": "warn_and_continue"
+  },
+
+  "timestamp": "NOW"
+}
