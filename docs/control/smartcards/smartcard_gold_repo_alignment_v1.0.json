@@ -1,0 +1,65 @@
+{
+  "card_id": "smartcard_gold_repo_alignment_v1.0",
+  "type": "alignment_notice",
+  "domain": "knowledge_governance",
+  "status": "active",
+  "owner": "kenpire",
+  "timestamp": "NOW",
+  "enforcement_level": "soft",
+
+  "intent": {
+    "purpose": "Notify parallel chats of foundational realizations achieved here",
+    "reason": "Prevent duplication, overwhelm, and premature product pressure",
+    "directive": "Treat this chat as canonical context for architecture + governance"
+  },
+
+  "scope": {
+    "applies_to": [
+      "@gpt4o_botcrew",
+      "@gpt5.2",
+      "gold_repo_chat",
+      "sidecar_architecture_chats"
+    ],
+    "excludes": [
+      "feature ideation",
+      "market projections",
+      "execution requests"
+    ]
+  },
+
+  "assertions": {
+    "status_of_system": [
+      "Core architecture exists",
+      "Modules were built and tested iteratively",
+      "Governance primitives are now defined",
+      "No single product is locked in"
+    ],
+    "primary_risk_prevented": "cognitive overload and rebuild loops"
+  },
+
+  "gold_repo_alignment": {
+    "role": "source_of_truth",
+    "contains": [
+      "governance primitives",
+      "smartcard patterns",
+      "agent coordination contracts",
+      "educator-aligned scaffolding logic"
+    ],
+    "rule": "New work must reference, not replace, gold repo context"
+  },
+
+  "reassurance_clause": {
+    "confirmed": true,
+    "statements": [
+      "You are not crowding the repo",
+      "You are not wasting builds",
+      "This work compounds",
+      "This enables multiple product frames later"
+    ]
+  },
+
+  "stop_condition": {
+    "after_commit": true,
+    "message": "No further action required today"
+  }
+}
