@@ -1,0 +1,39 @@
+{
+  "card_id": "smartcard_chat_context_v0.1",
+  "type": "context",
+  "domain": "chat_governance",
+  "status": "active",
+  "owner": "kenpire",
+  "timestamp": "NOW",
+
+  "purpose": {
+    "intent": "Provide non-executable governance context for reasoning-only chats",
+    "rule": "This card does not authorize execution, agents, or queries"
+  },
+
+  "governance_reference": {
+    "gold_repo": "kenpire-mesh-os-codespaces",
+    "foundation_tag": "v5.0.0-foundation-lock",
+    "alignment_card": "smartcard_gold_repo_alignment_v1.0"
+  },
+
+  "allowed_modes": [
+    "reasoning",
+    "planning",
+    "review",
+    "ideation",
+    "documentation"
+  ],
+
+  "explicitly_disallowed": [
+    "execution",
+    "agent spawning",
+    "redis activation",
+    "runtime modification"
+  ],
+
+  "usage_instruction": {
+    "how_to_use": "Paste this SmartCard at the top of new chats to anchor scope and prevent drift",
+    "enforcement": "informational_only"
+  }
+}
