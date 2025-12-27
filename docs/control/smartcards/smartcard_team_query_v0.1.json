@@ -6,6 +6,12 @@
   "owner": "kenpire",
 
   "intent": "Provide a machine-readable contract for determining active participants, roles, and capabilities within a defined KenPire operation.",
+  
+    "references": {
+     "policies": [
+       "docs/policies/REDIS_POLICY.md"
+    ]
+  },
 
   "query_rules": {
     "scope_required": true,
