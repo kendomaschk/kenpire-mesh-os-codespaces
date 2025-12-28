@@ -243,3 +243,37 @@ Commercial use requires a valid enterprise license. Contact licensing@kenpire.te
 # kenpire-mesh-os-codespaces
 ☁️ KenPire Mesh OS - GitHub Codespaces Working Clone - Original Online Copy of Release
 >>>>>>> 6a7af8849b0f956b1797f82fd4b3a36e5347fa75
+
+---
+
+## 🧭 Chat Intent & Change Type (Required for KenPire Work)
+
+To reduce drift, repetition, and manual error, all KenPire chats must begin with **two human-declared lines**:
+
+- **CHAT INTENT:** one sentence describing the goal of the chat  
+- **CHANGE TYPE:** one category defining the nature of work
+
+### CHAT INTENT
+A single sentence describing what this chat is trying to accomplish.
+
+Examples:
+- Inventory redis / dirtyrag / trifecta artifacts and assign to buckets
+- Review governance alignment against foundation lock
+- Plan next capsule demo scope
+
+### CHANGE TYPE
+Choose exactly one:
+- Governance / Policy
+- Execution / Code
+- Context / Reference
+- Ideation / Exploration
+- Audit / Verification
+
+### Why this exists
+- Prevents scope drift
+- Reduces chat bloat
+- Avoids repeated explanations
+- Minimizes manual micro-edits that cause errors
+
+This rule is **behavioral first** and **artifact-backed**, not enforced by automation.
+
