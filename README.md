@@ -277,3 +277,32 @@ Choose exactly one:
 
 This rule is **behavioral first** and **artifact-backed**, not enforced by automation.
 
+
+---
+
+## 🧭 Chat Splitting Protocol (Behavioral Rule)
+
+Every KenPire chat must declare:
+
+CHAT INTENT:
+CHANGE TYPE:
+
+### CHANGE TYPE options
+- Ideation / Exploration
+- Audit / Verification
+- Governance / Policy
+- Execution / Code
+- Refinement / Narrative
+
+### Split Rule
+If a chat produces:
+- executable decisions
+- artifacts to commit
+- classification outcomes
+
+→ fork a **new chat** and link back.
+
+Ideation chats are allowed to be messy.
+Execution chats are not.
+
+This rule is behavioral first, artifact-backed later.
