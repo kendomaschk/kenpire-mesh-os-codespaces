@@ -1,0 +1,219 @@
+{
+  "artifacts": [
+    {
+      "path": "ci-fix-smart.sh",
+      "size_bytes": 1085,
+      "last_modified": "2025-12-18T00:37:59.026385"
+    },
+    {
+      "path": "ci-fix.sh",
+      "size_bytes": 348,
+      "last_modified": "2025-12-18T00:23:07.116428"
+    },
+    {
+      "path": "ci_guard_patch_20251218_003820.json",
+      "size_bytes": 355,
+      "last_modified": "2025-12-18T00:38:21.337745"
+    },
+    {
+      "path": "DEPLOYMENT.md",
+      "size_bytes": 9231,
+      "last_modified": "2025-12-18T14:10:59.297246"
+    },
+    {
+      "path": "github_repository_configs.json",
+      "size_bytes": 12561,
+      "last_modified": "2025-12-18T14:10:59.484636"
+    },
+    {
+      "path": "github_repository_strategy.py",
+      "size_bytes": 15727,
+      "last_modified": "2025-12-18T14:10:59.528388"
+    },
+    {
+      "path": "IP_NOTICE.md",
+      "size_bytes": 258,
+      "last_modified": "2025-12-18T14:10:59.339598"
+    },
+    {
+      "path": "main.py",
+      "size_bytes": 3970,
+      "last_modified": "2025-12-18T14:10:59.610220"
+    },
+    {
+      "path": "PRODUCTION_STATUS.md",
+      "size_bytes": 7434,
+      "last_modified": "2025-12-18T14:10:59.370393"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 8801,
+      "last_modified": "2025-12-28T01:31:26.120695"
+    },
+    {
+      "path": "README_SECURE.md",
+      "size_bytes": 7442,
+      "last_modified": "2025-12-18T14:10:59.447471"
+    },
+    {
+      "path": "setup.py",
+      "size_bytes": 2597,
+      "last_modified": "2025-12-18T14:10:59.652385"
+    },
+    {
+      "path": "test_production.py",
+      "size_bytes": 9588,
+      "last_modified": "2025-12-18T14:10:59.902790"
+    },
+    {
+      "path": "triage_scan.py",
+      "size_bytes": 1334,
+      "last_modified": "2025-12-31T17:34:03.756537"
+    },
+    {
+      "path": ".devcontainer/devcontainer.json",
+      "size_bytes": 2730,
+      "last_modified": "2025-12-18T14:10:59.185419"
+    },
+    {
+      "path": ".github/scripts/validate_alignment.py",
+      "size_bytes": 652,
+      "last_modified": "2025-12-25T14:08:55.332797"
+    },
+    {
+      "path": "docs/foundation_lock.md",
+      "size_bytes": 275,
+      "last_modified": "2025-12-25T23:03:50.270666"
+    },
+    {
+      "path": "docs/audit/runtime_assertions.json",
+      "size_bytes": 246,
+      "last_modified": "2025-12-18T15:35:18.827029"
+    },
+    {
+      "path": "docs/control/map.json",
+      "size_bytes": 419,
+      "last_modified": "2025-12-25T14:09:12.294338"
+    },
+    {
+      "path": "docs/control/refinement/refinement_checklist.md",
+      "size_bytes": 572,
+      "last_modified": "2025-12-28T01:07:36.017243"
+    },
+    {
+      "path": "docs/control/smartcards/mesh_boot_validator_v1.0.2.json",
+      "size_bytes": 1356,
+      "last_modified": "2025-12-18T02:28:42.053638"
+    },
+    {
+      "path": "docs/control/smartcards/smartcard_authority_map_v1.0.json",
+      "size_bytes": 285,
+      "last_modified": "2025-12-18T15:57:29.638729"
+    },
+    {
+      "path": "docs/control/smartcards/smartcard_capsule_bucket_map_v0.1.json",
+      "size_bytes": 657,
+      "last_modified": "2025-12-25T00:49:44.389246"
+    },
+    {
+      "path": "docs/control/smartcards/smartcard_chatlink_bridge_v0.1.json",
+      "size_bytes": 894,
+      "last_modified": "2025-12-18T16:42:43.819540"
+    },
+    {
+      "path": "docs/control/smartcards/smartcard_gold_repo_alignment_v1.0.json",
+      "size_bytes": 1673,
+      "last_modified": "2025-12-25T00:55:48.021454"
+    },
+    {
+      "path": "docs/control/smartcards/smartcard_product_frame_index_v0.1.json",
+      "size_bytes": 452,
+      "last_modified": "2025-12-25T00:49:19.089088"
+    },
+    {
+      "path": "docs/control/smartcards/smartcard_team_query_v0.1.json",
+      "size_bytes": 1498,
+      "last_modified": "2025-12-27T02:45:38.459808"
+    },
+    {
+      "path": "docs/control/templates/chat_context/smartcard_chat_context_v0.1.json",
+      "size_bytes": 937,
+      "last_modified": "2025-12-25T23:57:37.670877"
+    },
+    {
+      "path": "docs/policies/REDIS_POLICY.md",
+      "size_bytes": 1737,
+      "last_modified": "2025-12-27T02:17:20.552283"
+    },
+    {
+      "path": "scripts/preflight_guard_v1.0.sh",
+      "size_bytes": 1189,
+      "last_modified": "2025-12-18T15:35:41.250111"
+    },
+    {
+      "path": "scripts/validate_modverse.py",
+      "size_bytes": 359,
+      "last_modified": "2025-12-18T01:47:40.081165"
+    },
+    {
+      "path": "src/kenpire/jepa_enforcer.py",
+      "size_bytes": 702,
+      "last_modified": "2025-12-18T01:39:59.764262"
+    },
+    {
+      "path": "src/kenpire/jepa_kernel.py",
+      "size_bytes": 2032,
+      "last_modified": "2025-12-18T01:23:47.309827"
+    },
+    {
+      "path": "src/kenpire/main.py",
+      "size_bytes": 7820,
+      "last_modified": "2025-12-18T14:10:59.787818"
+    },
+    {
+      "path": "src/kenpire/server.py",
+      "size_bytes": 4831,
+      "last_modified": "2025-12-18T14:10:59.808595"
+    },
+    {
+      "path": "src/kenpire/utils.py",
+      "size_bytes": 9731,
+      "last_modified": "2025-12-18T14:10:59.840131"
+    },
+    {
+      "path": "src/kenpire/__init__.py",
+      "size_bytes": 2180,
+      "last_modified": "2025-12-18T14:10:59.672849"
+    },
+    {
+      "path": "src/kenpire/core/ai_orchestration.py",
+      "size_bytes": 5942,
+      "last_modified": "2025-12-18T14:10:59.694322"
+    },
+    {
+      "path": "src/kenpire/core/mesh.py",
+      "size_bytes": 3300,
+      "last_modified": "2025-12-18T14:10:59.714924"
+    },
+    {
+      "path": "src/kenpire/core/security.py",
+      "size_bytes": 8697,
+      "last_modified": "2025-12-18T14:10:59.728601"
+    },
+    {
+      "path": "src/kenpire/core/smart_cards.py",
+      "size_bytes": 5291,
+      "last_modified": "2025-12-18T14:10:59.756692"
+    },
+    {
+      "path": "src/kenpire/core/__init__.py",
+      "size_bytes": 32,
+      "last_modified": "2025-11-21T12:47:00.386240"
+    },
+    {
+      "path": "src/kenpire/vault/modverse_features.vault.json",
+      "size_bytes": 2374,
+      "last_modified": "2025-12-18T14:10:59.889295"
+    }
+  ]
+}
