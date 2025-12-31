@@ -306,3 +306,28 @@ Ideation chats are allowed to be messy.
 Execution chats are not.
 
 This rule is behavioral first, artifact-backed later.
+
+---
+
+## 🗑️ Idea Dumpster Chat Type
+
+Purpose:
+- Unfiltered ideation
+- Half-formed thoughts
+- Pattern spotting
+- Memory parking
+
+Rules:
+- NO commits
+- NO decisions
+- NO enforcement
+- Allowed to contradict itself
+
+Exit Rule:
+If an idea becomes actionable → spawn a new chat with:
+- CHAT INTENT
+- CHANGE TYPE
+- Linked source chat
+
+Dumpster chats are valuable.
+They are not authoritative.
