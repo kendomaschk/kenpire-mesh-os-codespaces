@@ -1,0 +1,59 @@
+{
+  "grouped_by_date": {
+    "2025-11-21": [
+      "src/kenpire/core/__init__.py"
+    ],
+    "2025-12-18": [
+      "ci-fix-smart.sh",
+      "ci-fix.sh",
+      "ci_guard_patch_20251218_003820.json",
+      "DEPLOYMENT.md",
+      "github_repository_configs.json",
+      "github_repository_strategy.py",
+      "IP_NOTICE.md",
+      "main.py",
+      "PRODUCTION_STATUS.md",
+      "README_SECURE.md",
+      "setup.py",
+      "test_production.py",
+      ".devcontainer/devcontainer.json",
+      "docs/audit/runtime_assertions.json",
+      "docs/control/smartcards/mesh_boot_validator_v1.0.2.json",
+      "docs/control/smartcards/smartcard_authority_map_v1.0.json",
+      "docs/control/smartcards/smartcard_chatlink_bridge_v0.1.json",
+      "scripts/preflight_guard_v1.0.sh",
+      "scripts/validate_modverse.py",
+      "src/kenpire/jepa_enforcer.py",
+      "src/kenpire/jepa_kernel.py",
+      "src/kenpire/main.py",
+      "src/kenpire/server.py",
+      "src/kenpire/utils.py",
+      "src/kenpire/__init__.py",
+      "src/kenpire/core/ai_orchestration.py",
+      "src/kenpire/core/mesh.py",
+      "src/kenpire/core/security.py",
+      "src/kenpire/core/smart_cards.py",
+      "src/kenpire/vault/modverse_features.vault.json"
+    ],
+    "2025-12-25": [
+      ".github/scripts/validate_alignment.py",
+      "docs/foundation_lock.md",
+      "docs/control/map.json",
+      "docs/control/smartcards/smartcard_capsule_bucket_map_v0.1.json",
+      "docs/control/smartcards/smartcard_gold_repo_alignment_v1.0.json",
+      "docs/control/smartcards/smartcard_product_frame_index_v0.1.json",
+      "docs/control/templates/chat_context/smartcard_chat_context_v0.1.json"
+    ],
+    "2025-12-27": [
+      "docs/control/smartcards/smartcard_team_query_v0.1.json",
+      "docs/policies/REDIS_POLICY.md"
+    ],
+    "2025-12-28": [
+      "README.md",
+      "docs/control/refinement/refinement_checklist.md"
+    ],
+    "2025-12-31": [
+      "triage_scan.py"
+    ]
+  }
+}
