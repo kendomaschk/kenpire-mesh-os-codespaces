@@ -1,0 +1,262 @@
+{
+  "cow": [
+    {
+      "Connections": "Relates to system scope containing ci-fix-smart.sh",
+      "Observations": "Artifact last modified on 2025-12-18T00:37:59.026385",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "ci-fix-smart.sh"
+    },
+    {
+      "Connections": "Relates to system scope containing ci-fix.sh",
+      "Observations": "Artifact last modified on 2025-12-18T00:23:07.116428",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "ci-fix.sh"
+    },
+    {
+      "Connections": "Relates to system scope containing ci_guard_patch_20251218_003820.json",
+      "Observations": "Artifact last modified on 2025-12-18T00:38:21.337745",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "ci_guard_patch_20251218_003820.json"
+    },
+    {
+      "Connections": "Relates to system scope containing DEPLOYMENT.md",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.297246",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "DEPLOYMENT.md"
+    },
+    {
+      "Connections": "Relates to system scope containing github_repository_configs.json",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.484636",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "github_repository_configs.json"
+    },
+    {
+      "Connections": "Relates to system scope containing github_repository_strategy.py",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.528388",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "github_repository_strategy.py"
+    },
+    {
+      "Connections": "Relates to system scope containing IP_NOTICE.md",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.339598",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "IP_NOTICE.md"
+    },
+    {
+      "Connections": "Relates to system scope containing main.py",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.610220",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "main.py"
+    },
+    {
+      "Connections": "Relates to system scope containing PRODUCTION_STATUS.md",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.370393",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "PRODUCTION_STATUS.md"
+    },
+    {
+      "Connections": "Relates to system scope containing README.md",
+      "Observations": "Artifact last modified on 2025-12-28T01:31:26.120695",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "README.md"
+    },
+    {
+      "Connections": "Relates to system scope containing README_SECURE.md",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.447471",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "README_SECURE.md"
+    },
+    {
+      "Connections": "Relates to system scope containing setup.py",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.652385",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "setup.py"
+    },
+    {
+      "Connections": "Relates to system scope containing test_production.py",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.902790",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "test_production.py"
+    },
+    {
+      "Connections": "Relates to system scope containing triage_scan.py",
+      "Observations": "Artifact last modified on 2025-12-31T17:34:03.756537",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "triage_scan.py"
+    },
+    {
+      "Connections": "Relates to system scope containing .devcontainer/devcontainer.json",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.185419",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": ".devcontainer/devcontainer.json"
+    },
+    {
+      "Connections": "Relates to system scope containing .github/scripts/validate_alignment.py",
+      "Observations": "Artifact last modified on 2025-12-25T14:08:55.332797",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": ".github/scripts/validate_alignment.py"
+    },
+    {
+      "Connections": "Relates to system scope containing docs/foundation_lock.md",
+      "Observations": "Artifact last modified on 2025-12-25T23:03:50.270666",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "docs/foundation_lock.md"
+    },
+    {
+      "Connections": "Relates to system scope containing docs/audit/runtime_assertions.json",
+      "Observations": "Artifact last modified on 2025-12-18T15:35:18.827029",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "docs/audit/runtime_assertions.json"
+    },
+    {
+      "Connections": "Relates to system scope containing docs/control/map.json",
+      "Observations": "Artifact last modified on 2025-12-25T14:09:12.294338",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "docs/control/map.json"
+    },
+    {
+      "Connections": "Relates to system scope containing docs/control/refinement/refinement_checklist.md",
+      "Observations": "Artifact last modified on 2025-12-28T01:07:36.017243",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "docs/control/refinement/refinement_checklist.md"
+    },
+    {
+      "Connections": "Relates to system scope containing docs/control/smartcards/mesh_boot_validator_v1.0.2.json",
+      "Observations": "Artifact last modified on 2025-12-18T02:28:42.053638",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "docs/control/smartcards/mesh_boot_validator_v1.0.2.json"
+    },
+    {
+      "Connections": "Relates to system scope containing docs/control/smartcards/smartcard_authority_map_v1.0.json",
+      "Observations": "Artifact last modified on 2025-12-18T15:57:29.638729",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "docs/control/smartcards/smartcard_authority_map_v1.0.json"
+    },
+    {
+      "Connections": "Relates to system scope containing docs/control/smartcards/smartcard_capsule_bucket_map_v0.1.json",
+      "Observations": "Artifact last modified on 2025-12-25T00:49:44.389246",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "docs/control/smartcards/smartcard_capsule_bucket_map_v0.1.json"
+    },
+    {
+      "Connections": "Relates to system scope containing docs/control/smartcards/smartcard_chatlink_bridge_v0.1.json",
+      "Observations": "Artifact last modified on 2025-12-18T16:42:43.819540",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "docs/control/smartcards/smartcard_chatlink_bridge_v0.1.json"
+    },
+    {
+      "Connections": "Relates to system scope containing docs/control/smartcards/smartcard_gold_repo_alignment_v1.0.json",
+      "Observations": "Artifact last modified on 2025-12-25T00:55:48.021454",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "docs/control/smartcards/smartcard_gold_repo_alignment_v1.0.json"
+    },
+    {
+      "Connections": "Relates to system scope containing docs/control/smartcards/smartcard_product_frame_index_v0.1.json",
+      "Observations": "Artifact last modified on 2025-12-25T00:49:19.089088",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "docs/control/smartcards/smartcard_product_frame_index_v0.1.json"
+    },
+    {
+      "Connections": "Relates to system scope containing docs/control/smartcards/smartcard_team_query_v0.1.json",
+      "Observations": "Artifact last modified on 2025-12-27T02:45:38.459808",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "docs/control/smartcards/smartcard_team_query_v0.1.json"
+    },
+    {
+      "Connections": "Relates to system scope containing docs/control/templates/chat_context/smartcard_chat_context_v0.1.json",
+      "Observations": "Artifact last modified on 2025-12-25T23:57:37.670877",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "docs/control/templates/chat_context/smartcard_chat_context_v0.1.json"
+    },
+    {
+      "Connections": "Relates to system scope containing docs/policies/REDIS_POLICY.md",
+      "Observations": "Artifact last modified on 2025-12-27T02:17:20.552283",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "docs/policies/REDIS_POLICY.md"
+    },
+    {
+      "Connections": "Relates to system scope containing scripts/preflight_guard_v1.0.sh",
+      "Observations": "Artifact last modified on 2025-12-18T15:35:41.250111",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "scripts/preflight_guard_v1.0.sh"
+    },
+    {
+      "Connections": "Relates to system scope containing scripts/validate_modverse.py",
+      "Observations": "Artifact last modified on 2025-12-18T01:47:40.081165",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "scripts/validate_modverse.py"
+    },
+    {
+      "Connections": "Relates to system scope containing src/kenpire/jepa_enforcer.py",
+      "Observations": "Artifact last modified on 2025-12-18T01:39:59.764262",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "src/kenpire/jepa_enforcer.py"
+    },
+    {
+      "Connections": "Relates to system scope containing src/kenpire/jepa_kernel.py",
+      "Observations": "Artifact last modified on 2025-12-18T01:23:47.309827",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "src/kenpire/jepa_kernel.py"
+    },
+    {
+      "Connections": "Relates to system scope containing src/kenpire/main.py",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.787818",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "src/kenpire/main.py"
+    },
+    {
+      "Connections": "Relates to system scope containing src/kenpire/server.py",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.808595",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "src/kenpire/server.py"
+    },
+    {
+      "Connections": "Relates to system scope containing src/kenpire/utils.py",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.840131",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "src/kenpire/utils.py"
+    },
+    {
+      "Connections": "Relates to system scope containing src/kenpire/__init__.py",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.672849",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "src/kenpire/__init__.py"
+    },
+    {
+      "Connections": "Relates to system scope containing src/kenpire/core/ai_orchestration.py",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.694322",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "src/kenpire/core/ai_orchestration.py"
+    },
+    {
+      "Connections": "Relates to system scope containing src/kenpire/core/mesh.py",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.714924",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "src/kenpire/core/mesh.py"
+    },
+    {
+      "Connections": "Relates to system scope containing src/kenpire/core/security.py",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.728601",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "src/kenpire/core/security.py"
+    },
+    {
+      "Connections": "Relates to system scope containing src/kenpire/core/smart_cards.py",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.756692",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "src/kenpire/core/smart_cards.py"
+    },
+    {
+      "Connections": "Relates to system scope containing src/kenpire/core/__init__.py",
+      "Observations": "Artifact last modified on 2025-11-21T12:47:00.386240",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "src/kenpire/core/__init__.py"
+    },
+    {
+      "Connections": "Relates to system scope containing src/kenpire/vault/modverse_features.vault.json",
+      "Observations": "Artifact last modified on 2025-12-18T14:10:59.889295",
+      "Wonderings": "Is this artifact still active, duplicated, or superseded?",
+      "source_artifact": "src/kenpire/vault/modverse_features.vault.json"
+    }
+  ]
+}
