@@ -1,391 +1,348 @@
 {
-  "swbst": [
+  "stories": [
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve ci-fix-smart.sh",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "ci-fix-smart.sh",
-      "last_modified": "2025-12-18T00:37:59.026385"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve ci-fix.sh",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "ci-fix.sh",
-      "last_modified": "2025-12-18T00:23:07.116428"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve ci_guard_patch_20251218_003820.json",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "ci_guard_patch_20251218_003820.json",
-      "last_modified": "2025-12-18T00:38:21.337745"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve DEPLOYMENT.md",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "DEPLOYMENT.md",
-      "last_modified": "2025-12-18T14:10:59.297246"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve github_repository_configs.json",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "github_repository_configs.json",
-      "last_modified": "2025-12-18T14:10:59.484636"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve github_repository_strategy.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "github_repository_strategy.py",
-      "last_modified": "2025-12-18T14:10:59.528388"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve IP_NOTICE.md",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "IP_NOTICE.md",
-      "last_modified": "2025-12-18T14:10:59.339598"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve main.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "main.py",
-      "last_modified": "2025-12-18T14:10:59.610220"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve PRODUCTION_STATUS.md",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "PRODUCTION_STATUS.md",
-      "last_modified": "2025-12-18T14:10:59.370393"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve README.md",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "README.md",
-      "last_modified": "2025-12-28T01:31:26.120695"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve README_SECURE.md",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "README_SECURE.md",
-      "last_modified": "2025-12-18T14:10:59.447471"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve setup.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "setup.py",
-      "last_modified": "2025-12-18T14:10:59.652385"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve test_production.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "test_production.py",
-      "last_modified": "2025-12-18T14:10:59.902790"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve triage_scan.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "triage_scan.py",
-      "last_modified": "2025-12-31T17:34:03.756537"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve .devcontainer/devcontainer.json",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": ".devcontainer/devcontainer.json",
-      "last_modified": "2025-12-18T14:10:59.185419"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve .github/scripts/validate_alignment.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": ".github/scripts/validate_alignment.py",
-      "last_modified": "2025-12-25T14:08:55.332797"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve docs/foundation_lock.md",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "docs/foundation_lock.md",
-      "last_modified": "2025-12-25T23:03:50.270666"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve docs/audit/runtime_assertions.json",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "docs/audit/runtime_assertions.json",
-      "last_modified": "2025-12-18T15:35:18.827029"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve docs/control/map.json",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "docs/control/map.json",
-      "last_modified": "2025-12-25T14:09:12.294338"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve docs/control/refinement/refinement_checklist.md",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "docs/control/refinement/refinement_checklist.md",
-      "last_modified": "2025-12-28T01:07:36.017243"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve docs/control/smartcards/mesh_boot_validator_v1.0.2.json",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "docs/control/smartcards/mesh_boot_validator_v1.0.2.json",
-      "last_modified": "2025-12-18T02:28:42.053638"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve docs/control/smartcards/smartcard_authority_map_v1.0.json",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "docs/control/smartcards/smartcard_authority_map_v1.0.json",
-      "last_modified": "2025-12-18T15:57:29.638729"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve docs/control/smartcards/smartcard_capsule_bucket_map_v0.1.json",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "docs/control/smartcards/smartcard_capsule_bucket_map_v0.1.json",
-      "last_modified": "2025-12-25T00:49:44.389246"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve docs/control/smartcards/smartcard_chatlink_bridge_v0.1.json",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "docs/control/smartcards/smartcard_chatlink_bridge_v0.1.json",
-      "last_modified": "2025-12-18T16:42:43.819540"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve docs/control/smartcards/smartcard_gold_repo_alignment_v1.0.json",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "docs/control/smartcards/smartcard_gold_repo_alignment_v1.0.json",
-      "last_modified": "2025-12-25T00:55:48.021454"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve docs/control/smartcards/smartcard_product_frame_index_v0.1.json",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "docs/control/smartcards/smartcard_product_frame_index_v0.1.json",
-      "last_modified": "2025-12-25T00:49:19.089088"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve docs/control/smartcards/smartcard_team_query_v0.1.json",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "docs/control/smartcards/smartcard_team_query_v0.1.json",
-      "last_modified": "2025-12-27T02:45:38.459808"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve docs/control/templates/chat_context/smartcard_chat_context_v0.1.json",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "docs/control/templates/chat_context/smartcard_chat_context_v0.1.json",
-      "last_modified": "2025-12-25T23:57:37.670877"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve docs/policies/REDIS_POLICY.md",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "docs/policies/REDIS_POLICY.md",
-      "last_modified": "2025-12-27T02:17:20.552283"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve scripts/preflight_guard_v1.0.sh",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "scripts/preflight_guard_v1.0.sh",
-      "last_modified": "2025-12-18T15:35:41.250111"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve scripts/validate_modverse.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "scripts/validate_modverse.py",
-      "last_modified": "2025-12-18T01:47:40.081165"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve src/kenpire/jepa_enforcer.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "src/kenpire/jepa_enforcer.py",
-      "last_modified": "2025-12-18T01:39:59.764262"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve src/kenpire/jepa_kernel.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "src/kenpire/jepa_kernel.py",
-      "last_modified": "2025-12-18T01:23:47.309827"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve src/kenpire/main.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "src/kenpire/main.py",
-      "last_modified": "2025-12-18T14:10:59.787818"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve src/kenpire/server.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "src/kenpire/server.py",
-      "last_modified": "2025-12-18T14:10:59.808595"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve src/kenpire/utils.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "src/kenpire/utils.py",
-      "last_modified": "2025-12-18T14:10:59.840131"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve src/kenpire/__init__.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "src/kenpire/__init__.py",
-      "last_modified": "2025-12-18T14:10:59.672849"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve src/kenpire/core/ai_orchestration.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "src/kenpire/core/ai_orchestration.py",
-      "last_modified": "2025-12-18T14:10:59.694322"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve src/kenpire/core/mesh.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "src/kenpire/core/mesh.py",
-      "last_modified": "2025-12-18T14:10:59.714924"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve src/kenpire/core/security.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "src/kenpire/core/security.py",
-      "last_modified": "2025-12-18T14:10:59.728601"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve src/kenpire/core/smart_cards.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "src/kenpire/core/smart_cards.py",
-      "last_modified": "2025-12-18T14:10:59.756692"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve src/kenpire/core/__init__.py",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "src/kenpire/core/__init__.py",
-      "last_modified": "2025-11-21T12:47:00.386240"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
-      "Somebody": "KenPire system",
-      "Wanted": "to manage or preserve src/kenpire/vault/modverse_features.vault.json",
-      "But": "system drift and manual edits introduce risk",
-      "So": "the artifact must be classified and understood",
-      "Then": "it can be refined, deprecated, or operationalized",
       "source_artifact": "src/kenpire/vault/modverse_features.vault.json",
-      "last_modified": "2025-12-18T14:10:59.889295"
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     }
   ]
 }

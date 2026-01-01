@@ -10,16 +10,15 @@ stories = []
 
 for artifact in data["artifacts"]:
     stories.append({
-        "Somebody": "KenPire system",
-        "Wanted": f"to manage or preserve {artifact['path']}",
-        "But": "system drift and manual edits introduce risk",
-        "So": "the artifact must be classified and understood",
-        "Then": "it can be refined, deprecated, or operationalized",
         "source_artifact": artifact["path"],
-        "last_modified": artifact["last_modified"]
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     })
 
 with open(OUTPUT_FILE, "w") as f:
-    json.dump({"swbst": stories}, f, indent=2)
+    json.dump({"stories": stories}, f, indent=2)
 
-print(f"SWBST extraction complete. Output written to {OUTPUT_FILE}")
+print(f"SWBST candidates generated: {OUTPUT_FILE}")

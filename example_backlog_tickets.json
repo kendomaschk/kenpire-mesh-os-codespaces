@@ -1,0 +1,778 @@
+{
+  "tickets": [
+    {
+      "ticket_id": "KP-1B5AB5",
+      "title": "Refine artifact: ci-fix-smart.sh",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-0780DD",
+      "title": "Refine artifact: ci-fix.sh",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-1CA7DA",
+      "title": "Refine artifact: ci_guard_patch_20251218_003820.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-6A17B8",
+      "title": "Refine artifact: DEPLOYMENT.md",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-9D6D96",
+      "title": "Refine artifact: github_repository_configs.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-2F2CBF",
+      "title": "Refine artifact: github_repository_strategy.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-E48FF4",
+      "title": "Refine artifact: IP_NOTICE.md",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-4BC87D",
+      "title": "Refine artifact: main.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-179580",
+      "title": "Refine artifact: PRODUCTION_STATUS.md",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-62864B",
+      "title": "Refine artifact: README.md",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-E1E148",
+      "title": "Refine artifact: README_SECURE.md",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-5B8D58",
+      "title": "Refine artifact: setup.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-3B389C",
+      "title": "Refine artifact: test_production.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-008434",
+      "title": "Refine artifact: triage_scan.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-CACE59",
+      "title": "Refine artifact: .devcontainer/devcontainer.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-8409CA",
+      "title": "Refine artifact: .github/scripts/validate_alignment.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-1F9FD6",
+      "title": "Refine artifact: docs/foundation_lock.md",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-F95EA8",
+      "title": "Refine artifact: docs/audit/runtime_assertions.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-6A8C22",
+      "title": "Refine artifact: docs/control/map.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-F82DE2",
+      "title": "Refine artifact: docs/control/refinement/refinement_checklist.md",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-C4A3F8",
+      "title": "Refine artifact: docs/control/smartcards/mesh_boot_validator_v1.0.2.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-B6A1E5",
+      "title": "Refine artifact: docs/control/smartcards/smartcard_authority_map_v1.0.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-AEF3B2",
+      "title": "Refine artifact: docs/control/smartcards/smartcard_capsule_bucket_map_v0.1.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-3974AD",
+      "title": "Refine artifact: docs/control/smartcards/smartcard_chatlink_bridge_v0.1.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-B2D86E",
+      "title": "Refine artifact: docs/control/smartcards/smartcard_gold_repo_alignment_v1.0.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-1214B1",
+      "title": "Refine artifact: docs/control/smartcards/smartcard_product_frame_index_v0.1.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-45A74D",
+      "title": "Refine artifact: docs/control/smartcards/smartcard_team_query_v0.1.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-08E307",
+      "title": "Refine artifact: docs/control/templates/chat_context/smartcard_chat_context_v0.1.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-D0640B",
+      "title": "Refine artifact: docs/policies/REDIS_POLICY.md",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-FB5AEB",
+      "title": "Refine artifact: scripts/preflight_guard_v1.0.sh",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-51086D",
+      "title": "Refine artifact: scripts/validate_modverse.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-26AC0E",
+      "title": "Refine artifact: src/kenpire/jepa_enforcer.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-7CEE90",
+      "title": "Refine artifact: src/kenpire/jepa_kernel.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-4A7927",
+      "title": "Refine artifact: src/kenpire/main.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-E9BC6D",
+      "title": "Refine artifact: src/kenpire/server.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-11B013",
+      "title": "Refine artifact: src/kenpire/utils.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-F58892",
+      "title": "Refine artifact: src/kenpire/__init__.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-A69008",
+      "title": "Refine artifact: src/kenpire/core/ai_orchestration.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-522AD2",
+      "title": "Refine artifact: src/kenpire/core/mesh.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-95A45E",
+      "title": "Refine artifact: src/kenpire/core/security.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-BFC89A",
+      "title": "Refine artifact: src/kenpire/core/smart_cards.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-57AA11",
+      "title": "Refine artifact: src/kenpire/core/__init__.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-10CF34",
+      "title": "Refine artifact: src/kenpire/vault/modverse_features.vault.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    }
+  ]
+}
