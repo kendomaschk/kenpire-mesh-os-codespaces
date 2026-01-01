@@ -1,0 +1,28 @@
+{
+  "heatmap": [
+    {
+      "date": "2025-11-21",
+      "artifact_count": 1
+    },
+    {
+      "date": "2025-12-18",
+      "artifact_count": 30
+    },
+    {
+      "date": "2025-12-25",
+      "artifact_count": 7
+    },
+    {
+      "date": "2025-12-27",
+      "artifact_count": 2
+    },
+    {
+      "date": "2025-12-28",
+      "artifact_count": 2
+    },
+    {
+      "date": "2025-12-31",
+      "artifact_count": 1
+    }
+  ]
+}
