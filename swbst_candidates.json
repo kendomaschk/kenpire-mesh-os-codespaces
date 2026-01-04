@@ -1,6 +1,14 @@
 {
   "stories": [
     {
+      "source_artifact": "backlog_ticket_generator.py",
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+    },
+    {
       "source_artifact": "ci-fix-smart.sh",
       "Somebody": "System maintainer",
       "Wanted": "to understand the purpose of this artifact",
@@ -25,7 +33,31 @@
       "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
+      "source_artifact": "cow_candidates.json",
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+    },
+    {
+      "source_artifact": "cow_extractor.py",
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+    },
+    {
       "source_artifact": "DEPLOYMENT.md",
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+    },
+    {
+      "source_artifact": "example_backlog_tickets.json",
       "Somebody": "System maintainer",
       "Wanted": "to understand the purpose of this artifact",
       "But": "context and intent were not explicitly documented",
@@ -97,6 +129,22 @@
       "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
+      "source_artifact": "swbst_candidates.json",
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+    },
+    {
+      "source_artifact": "swbst_extractor.py",
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+    },
+    {
       "source_artifact": "test_production.py",
       "Somebody": "System maintainer",
       "Wanted": "to understand the purpose of this artifact",
@@ -105,7 +153,47 @@
       "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
+      "source_artifact": "triage_by_date.json",
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+    },
+    {
+      "source_artifact": "triage_group_by_date.py",
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+    },
+    {
+      "source_artifact": "triage_heatmap.json",
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+    },
+    {
+      "source_artifact": "triage_heatmap.py",
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+    },
+    {
       "source_artifact": "triage_scan.py",
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+    },
+    {
+      "source_artifact": "triage_scan_output.json",
       "Somebody": "System maintainer",
       "Wanted": "to understand the purpose of this artifact",
       "But": "context and intent were not explicitly documented",
@@ -129,7 +217,39 @@
       "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
     },
     {
+      "source_artifact": "capsules/refinement/backlog_intake.md",
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+    },
+    {
+      "source_artifact": "capsules/refinement/README.md",
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+    },
+    {
+      "source_artifact": "capsules/refinement/refined_stories.json",
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+    },
+    {
       "source_artifact": "docs/foundation_lock.md",
+      "Somebody": "System maintainer",
+      "Wanted": "to understand the purpose of this artifact",
+      "But": "context and intent were not explicitly documented",
+      "So": "the artifact requires narrative refinement",
+      "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+    },
+    {
+      "source_artifact": "docs/system_map.md",
       "Somebody": "System maintainer",
       "Wanted": "to understand the purpose of this artifact",
       "But": "context and intent were not explicitly documented",

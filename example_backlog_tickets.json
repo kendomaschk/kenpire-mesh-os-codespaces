@@ -1,7 +1,25 @@
 {
   "tickets": [
     {
-      "ticket_id": "KP-1B5AB5",
+      "ticket_id": "KP-B78CEE",
+      "title": "Refine artifact: backlog_ticket_generator.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-6A8DD1",
       "title": "Refine artifact: ci-fix-smart.sh",
       "description": {
         "Somebody": "System maintainer",
@@ -19,7 +37,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-0780DD",
+      "ticket_id": "KP-26D6AB",
       "title": "Refine artifact: ci-fix.sh",
       "description": {
         "Somebody": "System maintainer",
@@ -37,7 +55,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-1CA7DA",
+      "ticket_id": "KP-A184F9",
       "title": "Refine artifact: ci_guard_patch_20251218_003820.json",
       "description": {
         "Somebody": "System maintainer",
@@ -55,7 +73,43 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-6A17B8",
+      "ticket_id": "KP-DDA52F",
+      "title": "Refine artifact: cow_candidates.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-69BD89",
+      "title": "Refine artifact: cow_extractor.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-5D0022",
       "title": "Refine artifact: DEPLOYMENT.md",
       "description": {
         "Somebody": "System maintainer",
@@ -73,7 +127,25 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-9D6D96",
+      "ticket_id": "KP-21F954",
+      "title": "Refine artifact: example_backlog_tickets.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-C10D7F",
       "title": "Refine artifact: github_repository_configs.json",
       "description": {
         "Somebody": "System maintainer",
@@ -91,7 +163,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-2F2CBF",
+      "ticket_id": "KP-419918",
       "title": "Refine artifact: github_repository_strategy.py",
       "description": {
         "Somebody": "System maintainer",
@@ -109,7 +181,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-E48FF4",
+      "ticket_id": "KP-43337D",
       "title": "Refine artifact: IP_NOTICE.md",
       "description": {
         "Somebody": "System maintainer",
@@ -127,7 +199,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-4BC87D",
+      "ticket_id": "KP-9F9DDC",
       "title": "Refine artifact: main.py",
       "description": {
         "Somebody": "System maintainer",
@@ -145,7 +217,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-179580",
+      "ticket_id": "KP-1FF9D0",
       "title": "Refine artifact: PRODUCTION_STATUS.md",
       "description": {
         "Somebody": "System maintainer",
@@ -163,7 +235,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-62864B",
+      "ticket_id": "KP-CB72D7",
       "title": "Refine artifact: README.md",
       "description": {
         "Somebody": "System maintainer",
@@ -181,7 +253,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-E1E148",
+      "ticket_id": "KP-171E1E",
       "title": "Refine artifact: README_SECURE.md",
       "description": {
         "Somebody": "System maintainer",
@@ -199,7 +271,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-5B8D58",
+      "ticket_id": "KP-0677AD",
       "title": "Refine artifact: setup.py",
       "description": {
         "Somebody": "System maintainer",
@@ -217,7 +289,43 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-3B389C",
+      "ticket_id": "KP-B10AEE",
+      "title": "Refine artifact: swbst_candidates.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-A930A9",
+      "title": "Refine artifact: swbst_extractor.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-A09E1C",
       "title": "Refine artifact: test_production.py",
       "description": {
         "Somebody": "System maintainer",
@@ -235,7 +343,79 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-008434",
+      "ticket_id": "KP-E5A2D7",
+      "title": "Refine artifact: triage_by_date.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-A91163",
+      "title": "Refine artifact: triage_group_by_date.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-DFB507",
+      "title": "Refine artifact: triage_heatmap.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-C8AD4A",
+      "title": "Refine artifact: triage_heatmap.py",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-C7B695",
       "title": "Refine artifact: triage_scan.py",
       "description": {
         "Somebody": "System maintainer",
@@ -253,7 +433,25 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-CACE59",
+      "ticket_id": "KP-DBAB09",
+      "title": "Refine artifact: triage_scan_output.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-EFD391",
       "title": "Refine artifact: .devcontainer/devcontainer.json",
       "description": {
         "Somebody": "System maintainer",
@@ -271,7 +469,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-8409CA",
+      "ticket_id": "KP-A568F5",
       "title": "Refine artifact: .github/scripts/validate_alignment.py",
       "description": {
         "Somebody": "System maintainer",
@@ -289,7 +487,61 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-1F9FD6",
+      "ticket_id": "KP-EAA0AF",
+      "title": "Refine artifact: capsules/refinement/backlog_intake.md",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-0AFD47",
+      "title": "Refine artifact: capsules/refinement/README.md",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-FA0FEC",
+      "title": "Refine artifact: capsules/refinement/refined_stories.json",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-553A31",
       "title": "Refine artifact: docs/foundation_lock.md",
       "description": {
         "Somebody": "System maintainer",
@@ -307,7 +559,25 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-F95EA8",
+      "ticket_id": "KP-33CE79",
+      "title": "Refine artifact: docs/system_map.md",
+      "description": {
+        "Somebody": "System maintainer",
+        "Wanted": "to understand the purpose of this artifact",
+        "But": "context and intent were not explicitly documented",
+        "So": "the artifact requires narrative refinement",
+        "Then": "a KEEP / REFACTOR / ARCHIVE decision can be made"
+      },
+      "acceptance_criteria": [
+        "Decision recorded: KEEP / REFACTOR / ARCHIVE",
+        "Linked to refined artifacts",
+        "Reviewed in Refinement Capsule"
+      ],
+      "source": "Refinement Capsule",
+      "status": "EXAMPLE_ONLY"
+    },
+    {
+      "ticket_id": "KP-D8C681",
       "title": "Refine artifact: docs/audit/runtime_assertions.json",
       "description": {
         "Somebody": "System maintainer",
@@ -325,7 +595,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-6A8C22",
+      "ticket_id": "KP-D2BBC7",
       "title": "Refine artifact: docs/control/map.json",
       "description": {
         "Somebody": "System maintainer",
@@ -343,7 +613,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-F82DE2",
+      "ticket_id": "KP-D8A3E5",
       "title": "Refine artifact: docs/control/refinement/refinement_checklist.md",
       "description": {
         "Somebody": "System maintainer",
@@ -361,7 +631,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-C4A3F8",
+      "ticket_id": "KP-F38855",
       "title": "Refine artifact: docs/control/smartcards/mesh_boot_validator_v1.0.2.json",
       "description": {
         "Somebody": "System maintainer",
@@ -379,7 +649,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-B6A1E5",
+      "ticket_id": "KP-BFA6B1",
       "title": "Refine artifact: docs/control/smartcards/smartcard_authority_map_v1.0.json",
       "description": {
         "Somebody": "System maintainer",
@@ -397,7 +667,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-AEF3B2",
+      "ticket_id": "KP-92FDA7",
       "title": "Refine artifact: docs/control/smartcards/smartcard_capsule_bucket_map_v0.1.json",
       "description": {
         "Somebody": "System maintainer",
@@ -415,7 +685,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-3974AD",
+      "ticket_id": "KP-2C79C9",
       "title": "Refine artifact: docs/control/smartcards/smartcard_chatlink_bridge_v0.1.json",
       "description": {
         "Somebody": "System maintainer",
@@ -433,7 +703,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-B2D86E",
+      "ticket_id": "KP-F7388D",
       "title": "Refine artifact: docs/control/smartcards/smartcard_gold_repo_alignment_v1.0.json",
       "description": {
         "Somebody": "System maintainer",
@@ -451,7 +721,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-1214B1",
+      "ticket_id": "KP-F1E2C4",
       "title": "Refine artifact: docs/control/smartcards/smartcard_product_frame_index_v0.1.json",
       "description": {
         "Somebody": "System maintainer",
@@ -469,7 +739,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-45A74D",
+      "ticket_id": "KP-14C52C",
       "title": "Refine artifact: docs/control/smartcards/smartcard_team_query_v0.1.json",
       "description": {
         "Somebody": "System maintainer",
@@ -487,7 +757,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-08E307",
+      "ticket_id": "KP-0F90A7",
       "title": "Refine artifact: docs/control/templates/chat_context/smartcard_chat_context_v0.1.json",
       "description": {
         "Somebody": "System maintainer",
@@ -505,7 +775,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-D0640B",
+      "ticket_id": "KP-898E24",
       "title": "Refine artifact: docs/policies/REDIS_POLICY.md",
       "description": {
         "Somebody": "System maintainer",
@@ -523,7 +793,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-FB5AEB",
+      "ticket_id": "KP-3B7103",
       "title": "Refine artifact: scripts/preflight_guard_v1.0.sh",
       "description": {
         "Somebody": "System maintainer",
@@ -541,7 +811,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-51086D",
+      "ticket_id": "KP-56BD94",
       "title": "Refine artifact: scripts/validate_modverse.py",
       "description": {
         "Somebody": "System maintainer",
@@ -559,7 +829,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-26AC0E",
+      "ticket_id": "KP-75F7FD",
       "title": "Refine artifact: src/kenpire/jepa_enforcer.py",
       "description": {
         "Somebody": "System maintainer",
@@ -577,7 +847,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-7CEE90",
+      "ticket_id": "KP-ADF0F0",
       "title": "Refine artifact: src/kenpire/jepa_kernel.py",
       "description": {
         "Somebody": "System maintainer",
@@ -595,7 +865,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-4A7927",
+      "ticket_id": "KP-805C1B",
       "title": "Refine artifact: src/kenpire/main.py",
       "description": {
         "Somebody": "System maintainer",
@@ -613,7 +883,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-E9BC6D",
+      "ticket_id": "KP-F95D4D",
       "title": "Refine artifact: src/kenpire/server.py",
       "description": {
         "Somebody": "System maintainer",
@@ -631,7 +901,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-11B013",
+      "ticket_id": "KP-0BF1AB",
       "title": "Refine artifact: src/kenpire/utils.py",
       "description": {
         "Somebody": "System maintainer",
@@ -649,7 +919,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-F58892",
+      "ticket_id": "KP-352233",
       "title": "Refine artifact: src/kenpire/__init__.py",
       "description": {
         "Somebody": "System maintainer",
@@ -667,7 +937,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-A69008",
+      "ticket_id": "KP-93338C",
       "title": "Refine artifact: src/kenpire/core/ai_orchestration.py",
       "description": {
         "Somebody": "System maintainer",
@@ -685,7 +955,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-522AD2",
+      "ticket_id": "KP-64FDA3",
       "title": "Refine artifact: src/kenpire/core/mesh.py",
       "description": {
         "Somebody": "System maintainer",
@@ -703,7 +973,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-95A45E",
+      "ticket_id": "KP-F4D5DD",
       "title": "Refine artifact: src/kenpire/core/security.py",
       "description": {
         "Somebody": "System maintainer",
@@ -721,7 +991,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-BFC89A",
+      "ticket_id": "KP-B37918",
       "title": "Refine artifact: src/kenpire/core/smart_cards.py",
       "description": {
         "Somebody": "System maintainer",
@@ -739,7 +1009,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-57AA11",
+      "ticket_id": "KP-2CD4FA",
       "title": "Refine artifact: src/kenpire/core/__init__.py",
       "description": {
         "Somebody": "System maintainer",
@@ -757,7 +1027,7 @@
       "status": "EXAMPLE_ONLY"
     },
     {
-      "ticket_id": "KP-10CF34",
+      "ticket_id": "KP-545A06",
       "title": "Refine artifact: src/kenpire/vault/modverse_features.vault.json",
       "description": {
         "Somebody": "System maintainer",
