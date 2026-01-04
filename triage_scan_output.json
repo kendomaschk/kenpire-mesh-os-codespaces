@@ -1,6 +1,11 @@
 {
   "artifacts": [
     {
+      "path": "backlog_ticket_generator.py",
+      "size_bytes": 1007,
+      "last_modified": "2025-12-31T19:20:43.405198"
+    },
+    {
       "path": "ci-fix-smart.sh",
       "size_bytes": 1085,
       "last_modified": "2025-12-18T00:37:59.026385"
@@ -16,9 +21,24 @@
       "last_modified": "2025-12-18T00:38:21.337745"
     },
     {
+      "path": "cow_candidates.json",
+      "size_bytes": 13851,
+      "last_modified": "2025-12-31T17:57:39.306825"
+    },
+    {
+      "path": "cow_extractor.py",
+      "size_bytes": 674,
+      "last_modified": "2025-12-31T17:57:26.450879"
+    },
+    {
       "path": "DEPLOYMENT.md",
       "size_bytes": 9231,
       "last_modified": "2025-12-18T14:10:59.297246"
+    },
+    {
+      "path": "example_backlog_tickets.json",
+      "size_bytes": 29642,
+      "last_modified": "2025-12-31T19:27:42.632080"
     },
     {
       "path": "github_repository_configs.json",
@@ -47,8 +67,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 8801,
-      "last_modified": "2025-12-28T01:31:26.120695"
+      "size_bytes": 9717,
+      "last_modified": "2025-12-31T17:59:19.440201"
     },
     {
       "path": "README_SECURE.md",
@@ -61,14 +81,49 @@
       "last_modified": "2025-12-18T14:10:59.652385"
     },
     {
+      "path": "swbst_candidates.json",
+      "size_bytes": 15624,
+      "last_modified": "2025-12-31T19:27:09.307446"
+    },
+    {
+      "path": "swbst_extractor.py",
+      "size_bytes": 708,
+      "last_modified": "2025-12-31T19:26:55.421457"
+    },
+    {
       "path": "test_production.py",
       "size_bytes": 9588,
       "last_modified": "2025-12-18T14:10:59.902790"
     },
     {
+      "path": "triage_by_date.json",
+      "size_bytes": 1942,
+      "last_modified": "2025-12-31T17:41:39.522645"
+    },
+    {
+      "path": "triage_group_by_date.py",
+      "size_bytes": 584,
+      "last_modified": "2025-12-31T17:41:27.404135"
+    },
+    {
+      "path": "triage_heatmap.json",
+      "size_bytes": 424,
+      "last_modified": "2025-12-31T19:19:06.644841"
+    },
+    {
+      "path": "triage_heatmap.py",
+      "size_bytes": 593,
+      "last_modified": "2025-12-31T19:18:49.638861"
+    },
+    {
       "path": "triage_scan.py",
       "size_bytes": 1334,
       "last_modified": "2025-12-31T17:34:03.756537"
+    },
+    {
+      "path": "triage_scan_output.json",
+      "size_bytes": 6022,
+      "last_modified": "2025-12-31T17:34:35.355741"
     },
     {
       "path": ".devcontainer/devcontainer.json",
@@ -81,9 +136,29 @@
       "last_modified": "2025-12-25T14:08:55.332797"
     },
     {
+      "path": "capsules/refinement/backlog_intake.md",
+      "size_bytes": 253,
+      "last_modified": "2025-12-31T17:58:38.125135"
+    },
+    {
+      "path": "capsules/refinement/README.md",
+      "size_bytes": 371,
+      "last_modified": "2025-12-31T17:44:27.417912"
+    },
+    {
+      "path": "capsules/refinement/refined_stories.json",
+      "size_bytes": 80,
+      "last_modified": "2025-12-31T17:44:43.887327"
+    },
+    {
       "path": "docs/foundation_lock.md",
       "size_bytes": 275,
       "last_modified": "2025-12-25T23:03:50.270666"
+    },
+    {
+      "path": "docs/system_map.md",
+      "size_bytes": 662,
+      "last_modified": "2025-12-31T18:00:04.374908"
     },
     {
       "path": "docs/audit/runtime_assertions.json",
