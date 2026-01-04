@@ -52,7 +52,7 @@ jobs:
       - name: 📏 Linting Check
         run: |
           echo "📏 Running flake8 linting..."
-          if [ -d tests ] && if [ -d tests ] && flake8 src/ tests/ --max-line-length=88 --extend-ignore=E203,W503
+          if [ -d tests ]; then flake8 src/ tests/ --max-line-length=88 --extend-ignore=E203,W503; fi
 
       - name: 🔍 Type Checking
         run: |
@@ -69,7 +69,7 @@ jobs:
       - name: 🧪 Unit Tests
         run: |
           echo "🧪 Running unit tests..."
-          if [ -d tests ] && if [ -d tests ] && pytest tests/ -v --cov=src --cov-report=xml --cov-report=html
+          if [ -d tests ]; then pytest tests/ -v --cov=src --cov-report=xml --cov-report=html; fi
 
       - name: 📊 Upload Coverage Reports
         uses: codecov/codecov-action@v3
@@ -190,7 +190,7 @@ jobs:
       - name: 🧪 Run Integration Tests
         run: |
           echo "🧪 Running integration tests..."
-          if [ -d tests ] && if [ -d tests ] && pytest tests/integration/ -v --tb=short
+          if [ -d tests/integration ]; then pytest tests/integration/ -v --tb=short; fi
 
       - name: 🌐 API Health Check
         run: |
@@ -207,10 +207,9 @@ jobs:
 
       - name: 🛠️ Setup Kubernetes Tools
         run: |
-          # Install kubeval
-          wget https://github.com/instrumenta/kubeval/releases/latest/download/kubeval-linux-amd64.tar.gz
-          tar xf kubeval-linux-amd64.tar.gz
-          sudo mv kubeval /usr/local/bin
+          # Install kubeconform (modern alternative to kubeval with reliable schema support)
+          curl -L https://github.com/yannh/kubeconform/releases/latest/download/kubeconform-linux-amd64.tar.gz | tar xz
+          sudo mv kubeconform /usr/local/bin/
 
           # Install kube-score
           wget https://github.com/zegl/kube-score/releases/download/v1.16.1/kube-score_1.16.1_linux_amd64.tar.gz
@@ -220,7 +219,14 @@ jobs:
       - name: ✅ Validate Kubernetes Manifests
         run: |
           echo "✅ Validating Kubernetes manifests..."
-          kubeval k8s/*.yaml
+          # Validate with kubeconform using embedded schemas (no external dependency)
+          # -strict: Fail on unrecognized properties
+          # -ignore-missing-schemas: Don't fail on missing CRD schemas
+          # -summary: Show summary of validation results
+          # -verbose: Show detailed output
+          kubeconform -strict -ignore-missing-schemas -summary -verbose k8s/*.yaml
+          
+          # Score manifests for best practices
           kube-score score k8s/*.yaml
 
   # ===== STAGING DEPLOYMENT =====
