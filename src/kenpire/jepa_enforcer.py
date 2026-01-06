@@ -14,6 +14,8 @@ def validate_capsule_features(capsule_name: str, declared_features: list):
     provided = set(declared_features)
 
     if expected != provided:
-        raise ValueError(f"❌ Feature mismatch for {capsule_name}!\nExpected: {expected}\nGot: {provided}")
-    
+        raise ValueError(
+            f"❌ Feature mismatch for {capsule_name}!\nExpected: {expected}\nGot: {provided}"
+        )
+
     print(f"✅ {capsule_name} passed JEPA feature check.")

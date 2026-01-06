@@ -21,35 +21,33 @@ from .core.mesh import MeshOrchestrator
 from .server import create_app, run_server
 from .utils import (
     json_utils,
-    id_utils, 
+    id_utils,
     time_utils,
     validation_utils,
     config_utils,
     default_cache,
-    setup_logging
+    setup_logging,
 )
 
 # Core classes for easy import
 __all__ = [
     # Core classes
     "SmartNarrativeCard",
-    "SmartCardOrchestrator", 
+    "SmartCardOrchestrator",
     "TrifectaCoordinator",
     "SecurityHardening",
     "MeshOrchestrator",
-    
     # Server
     "create_app",
     "run_server",
-    
     # Utilities
     "json_utils",
     "id_utils",
-    "time_utils", 
+    "time_utils",
     "validation_utils",
     "config_utils",
     "default_cache",
-    "setup_logging"
+    "setup_logging",
 ]
 
 # Package metadata
@@ -66,13 +64,13 @@ __package_info__ = {
         "Intended Audience :: Developers",
         "License :: Other/Proprietary License",
         "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9", 
+        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
         "Topic :: Software Development :: Libraries :: Python Modules",
-        "Topic :: Scientific/Engineering :: Artificial Intelligence"
-    ]
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    ],
 }
 
 
