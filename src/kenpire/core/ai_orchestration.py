@@ -5,7 +5,7 @@ Multi-model coordination with Trifecta V2 architecture
 
 import asyncio
 import logging
-from typing import Dict, Any, List, Optional
+from typing import Dict, Any
 from datetime import datetime
 
 logger = logging.getLogger(__name__)
@@ -41,7 +41,9 @@ class AIOrchestrator:
                 "task": request.get("task", "unknown"),
                 "models_used": list(self.models.keys()),
                 "timestamp": datetime.now().isoformat(),
-                "result": f"Orchestrated response for: {request.get('input', 'no input')}",
+                "result": (
+                    f"Orchestrated response for: {request.get('input', 'no input')}"
+                ),
             }
 
             self.stats["requests_processed"] += 1

@@ -54,7 +54,9 @@ __all__ = [
 __package_info__ = {
     "name": "kenpire",
     "version": __version__,
-    "description": "Military-grade cognitive infrastructure for enterprise applications",
+    "description": (
+        "Military-grade cognitive infrastructure for enterprise applications"
+    ),
     "author": __author__,
     "license": __license__,
     "python_requires": ">=3.8",

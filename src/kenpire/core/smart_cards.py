@@ -4,11 +4,10 @@ Advanced memory management with continuity validation
 """
 
 import asyncio
-import json
 import secrets
 import time
 from datetime import datetime
-from typing import Dict, Any, Optional
+from typing import Dict, Any
 import logging
 
 logger = logging.getLogger(__name__)

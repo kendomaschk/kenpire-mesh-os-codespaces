@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import logging
 from typing import Dict, Any
 
-from .core.smart_cards import SmartNarrativeCard, SmartCardOrchestrator
+from .core.smart_cards import SmartCardOrchestrator
 from .core.ai_orchestration import TrifectaCoordinator
 from .core.security import SecurityHardening
 from .core.mesh import MeshOrchestrator
@@ -29,7 +29,9 @@ def create_app() -> FastAPI:
 
     app = FastAPI(
         title="KenPire Mesh OS",
-        description="Military-grade cognitive infrastructure for enterprise applications",
+        description=(
+            "Military-grade cognitive infrastructure for enterprise applications"
+        ),
         version="2.0.0",
         docs_url="/api/docs",
         redoc_url="/api/redoc",

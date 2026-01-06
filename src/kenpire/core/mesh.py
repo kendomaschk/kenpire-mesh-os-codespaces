@@ -5,7 +5,7 @@ Distributed consensus and coordination system
 
 import asyncio
 import logging
-from typing import Dict, Any, List
+from typing import Dict, Any
 from datetime import datetime
 
 logger = logging.getLogger(__name__)
@@ -68,7 +68,8 @@ class MeshOrchestrator:
         else:
             self.mesh_stats["failed_consensus"] += 1
             logger.warning(
-                f"Consensus failed: {votes}/{len(active_nodes)} votes (required: {required_votes})"
+                f"Consensus failed: {votes}/{len(active_nodes)} votes "
+                f"(required: {required_votes})"
             )
 
         return {

@@ -7,7 +7,6 @@ Enterprise-ready cognitive infrastructure deployment
 import asyncio
 import logging
 import sys
-from pathlib import Path
 
 import click
 import structlog
@@ -79,10 +78,12 @@ def server(host: str, port: int, workers: int):
         # Initialize security hardening
         security = SecurityHardening()
         logger.info("✅ Security hardening initialized")
+        logger.info(f"Active API keys: {len(security.api_keys)}")
 
         # Initialize AI orchestration
         trifecta = TrifectaCoordinator()
         logger.info("✅ Trifecta AI coordinator initialized")
+        logger.info(f"Available models: {len(trifecta.models)}")
 
         # Start server
         app = create_app()
@@ -161,8 +162,8 @@ def health_check():
             # Test AI orchestration
             try:
                 trifecta = TrifectaCoordinator()
-                # Basic initialization test
                 logger.info("✅ AI orchestration healthy")
+                logger.info(f"Models available: {len(trifecta.models)}")
             except Exception as e:
                 systems_status["ai_orchestration"] = False
                 logger.error(f"❌ AI orchestration error: {e}")
@@ -171,6 +172,7 @@ def health_check():
             try:
                 security = SecurityHardening()
                 logger.info("✅ Security systems healthy")
+                logger.info(f"Security events: {len(security.security_events)}")
             except Exception as e:
                 systems_status["security"] = False
                 logger.error(f"❌ Security systems error: {e}")
@@ -184,11 +186,13 @@ def health_check():
                 console.print("🎯 [bold green]All systems healthy (100%)[/bold green]")
             elif health_percentage >= 75:
                 console.print(
-                    f"⚠️ [bold yellow]Systems partially healthy ({health_percentage:.1f}%)[/bold yellow]"
+                    f"⚠️ [bold yellow]Systems partially healthy "
+                    f"({health_percentage:.1f}%)[/bold yellow]"
                 )
             else:
                 console.print(
-                    f"❌ [bold red]Systems unhealthy ({health_percentage:.1f}%)[/bold red]"
+                    f"❌ [bold red]Systems unhealthy "
+                    f"({health_percentage:.1f}%)[/bold red]"
                 )
 
             for system, status in systems_status.items():

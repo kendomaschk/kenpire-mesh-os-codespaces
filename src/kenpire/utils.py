@@ -173,7 +173,8 @@ class RetryUtils:
                         if attempt < max_retries - 1:
                             wait_time = backoff_factor * (2**attempt)
                             logger.warning(
-                                f"Retry {attempt + 1}/{max_retries} after {wait_time}s: {e}"
+                                f"Retry {attempt + 1}/{max_retries} "
+                                f"after {wait_time}s: {e}"
                             )
                             await asyncio.sleep(wait_time)
                         else:
@@ -192,7 +193,8 @@ class RetryUtils:
                         if attempt < max_retries - 1:
                             wait_time = backoff_factor * (2**attempt)
                             logger.warning(
-                                f"Retry {attempt + 1}/{max_retries} after {wait_time}s: {e}"
+                                f"Retry {attempt + 1}/{max_retries} "
+                                f"after {wait_time}s: {e}"
                             )
                             time.sleep(wait_time)
                         else:
