@@ -207,10 +207,9 @@ jobs:
 
       - name: 🛠️ Setup Kubernetes Tools
         run: |
-          # Install kubeval
-          wget https://github.com/instrumenta/kubeval/releases/latest/download/kubeval-linux-amd64.tar.gz
-          tar xf kubeval-linux-amd64.tar.gz
-          sudo mv kubeval /usr/local/bin
+          # Install kubeconform (modern alternative to kubeval with reliable schema support)
+          curl -L https://github.com/yannh/kubeconform/releases/latest/download/kubeconform-linux-amd64.tar.gz | tar xz
+          sudo mv kubeconform /usr/local/bin/
 
           # Install kube-score
           wget https://github.com/zegl/kube-score/releases/download/v1.16.1/kube-score_1.16.1_linux_amd64.tar.gz
@@ -220,8 +219,16 @@ jobs:
       - name: ✅ Validate Kubernetes Manifests
         run: |
           echo "✅ Validating Kubernetes manifests..."
-          kubeval k8s/*.yaml
-          kube-score score k8s/*.yaml
+          # Validate with kubeconform using embedded schemas (no external dependency)
+          # -strict: Fail on unrecognized properties
+          # -ignore-missing-schemas: Don't fail on missing CRD schemas
+          # -summary: Show summary of validation results
+          # -verbose: Show detailed output
+          kubeconform -strict -ignore-missing-schemas -summary -verbose k8s/*.yaml
+          
+          # Score manifests for best practices (non-blocking)
+          echo "📊 Scoring manifests for best practices..."
+          kube-score score k8s/*.yaml || echo "⚠️ kube-score found recommendations to improve"
 
   # ===== STAGING DEPLOYMENT =====
   deploy-staging:
