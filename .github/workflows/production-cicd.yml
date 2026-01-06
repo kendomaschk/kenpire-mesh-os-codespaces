@@ -47,7 +47,11 @@ jobs:
       - name: 🎨 Code Formatting Check
         run: |
           echo "🎨 Checking code formatting with Black..."
-          black --check --diff src/ tests/
+          if [ -d tests ]; then
+            black --check --diff src/ tests/
+          else
+            black --check --diff src/
+          fi
 
       - name: 📏 Linting Check
         run: |
