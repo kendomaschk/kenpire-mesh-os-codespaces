@@ -1,4 +1,8 @@
 # jepa_enforcer.py add-on
+import json
+from pathlib import Path
+
+
 def validate_capsule_features(capsule_name: str, declared_features: list):
     vault_path = Path("src/kenpire/vault/modverse_features.vault.json")
     if not vault_path.exists():
@@ -14,6 +18,9 @@ def validate_capsule_features(capsule_name: str, declared_features: list):
     provided = set(declared_features)
 
     if expected != provided:
-        raise ValueError(f"❌ Feature mismatch for {capsule_name}!\nExpected: {expected}\nGot: {provided}")
-    
+        raise ValueError(
+            f"❌ Feature mismatch for {capsule_name}!\n"
+            f"Expected: {expected}\nGot: {provided}"
+        )
+
     print(f"✅ {capsule_name} passed JEPA feature check.")

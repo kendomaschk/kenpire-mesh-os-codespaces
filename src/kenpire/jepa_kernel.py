@@ -6,12 +6,14 @@ from datetime import datetime
 JEPA_KERNEL_VERSION = "2.0.0"
 JEPA_KERNEL_LOCKED_AT = datetime.utcnow().isoformat()
 
+
 def kernel_active():
     """
     Confirms JEPA Kernel is present and enforcing.
     Used by boot agents like Jarvess to confirm system integrity.
     """
     return True
+
 
 def run_jepa_compliance(capsule_name: str, capsule_logic: str) -> dict:
     """
@@ -25,7 +27,7 @@ def run_jepa_compliance(capsule_name: str, capsule_logic: str) -> dict:
         "hallucination_score": 0.0,
         "drift_detected": False,
         "loop_closed": True,
-        "compliant": True
+        "compliant": True,
     }
 
     # Placeholder JEPA checks (replace with real heuristics later)
@@ -38,6 +40,7 @@ def run_jepa_compliance(capsule_name: str, capsule_logic: str) -> dict:
 
     return report
 
+
 def jepa_summary_diff(reports: list) -> dict:
     """
     Aggregates JEPA compliance reports into a summary diff.
@@ -47,9 +50,12 @@ def jepa_summary_diff(reports: list) -> dict:
         "total_capsules": len(reports),
         "non_compliant": len(failed),
         "compliant": len(reports) - len(failed),
-        "compliance_rate": round(100 * (len(reports) - len(failed)) / max(1, len(reports)), 2),
-        "failures": failed
+        "compliance_rate": round(
+            100 * (len(reports) - len(failed)) / max(1, len(reports)), 2
+        ),
+        "failures": failed,
     }
+
 
 def export_jepa_lock():
     """
@@ -59,9 +65,10 @@ def export_jepa_lock():
         "kernel": "JEPA-Core",
         "version": JEPA_KERNEL_VERSION,
         "locked_at": JEPA_KERNEL_LOCKED_AT,
-        "enforcement": True
+        "enforcement": True,
     }
     with open("JEPA_KERNEL_LOCK.json", "w") as f:
         import json
+
         json.dump(lock, f, indent=2)
     return lock
