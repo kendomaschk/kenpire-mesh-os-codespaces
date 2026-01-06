@@ -241,7 +241,7 @@ jobs:
           # -summary: Show summary of validation results
           # -verbose: Show detailed output
           kubeconform -strict -ignore-missing-schemas -summary -verbose k8s/*.yaml
-          
+
           # Score manifests for best practices (non-blocking)
           echo "📊 Scoring manifests for best practices..."
           kube-score score k8s/*.yaml || echo "⚠️ kube-score found recommendations to improve"
